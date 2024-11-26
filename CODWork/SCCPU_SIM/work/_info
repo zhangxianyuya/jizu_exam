@@ -1,0 +1,297 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\modeltech_10.1a\win32
+valu
+Z1 !s100 2dZDil6e;=VLSC6DHGMnL2
+Z2 IX[:l;3aOZ`8J::Y:;@W;;1
+Z3 VBn`ji@JZJ?f27Qk1NoHCM0
+Z4 dD:\CODWork\SCCPU_SIM
+Z5 w1551514760
+Z6 8D:/CODWork/SCCPU_SIM/alu.v
+Z7 FD:/CODWork/SCCPU_SIM/alu.v
+L0 3
+Z8 OE;L;10.1a;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|-vopt|D:/CODWork/SCCPU_SIM/alu.v|
+Z10 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z11 !s108 1573480557.625000
+Z12 !s107 ctrl_encode_def.v|D:/CODWork/SCCPU_SIM/alu.v|
+!i10b 1
+!s85 0
+valu_tb
+!i10b 1
+Z13 !s100 Gh:?6=UG`CBJWi5gn_;?b3
+Z14 IL@3ESU?AU<=]lm7i`jZ]Z2
+Z15 VL;=kgzZ7GJ2Reg7Z1GkmR2
+R4
+Z16 w1573463462
+Z17 8D:/CODWork/SCCPU_SIM/alu_tb.v
+Z18 FD:/CODWork/SCCPU_SIM/alu_tb.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1573480558.218000
+!s107 D:/CODWork/SCCPU_SIM/alu_tb.v|
+Z19 !s90 -reportprogress|300|-work|work|-vopt|D:/CODWork/SCCPU_SIM/alu_tb.v|
+R10
+vctrl
+Z20 !s100 g6HYBN7@g4X966]ng5>b;3
+Z21 IMmfBnhgTz1h8^g77:[Wik1
+Z22 VHmAI2HCW6bh93kRL7DIE?2
+R4
+Z23 w1573474509
+Z24 8D:/CODWork/SCCPU_SIM/ctrl.v
+Z25 FD:/CODWork/SCCPU_SIM/ctrl.v
+L0 4
+R8
+r1
+31
+Z26 !s90 -reportprogress|300|-work|work|-vopt|D:/CODWork/SCCPU_SIM/ctrl.v|
+R10
+Z27 !s108 1573480557.687000
+Z28 !s107 D:/CODWork/SCCPU_SIM/ctrl.v|
+!i10b 1
+!s85 0
+vdm
+Z29 !s100 7YhLFUT6OQA`]T7:zPj`O2
+Z30 I9Xd5>7Q0ATDGDc;ej98Jj0
+Z31 VQ5kzjohU1HQB?iGHI7LOU0
+R4
+Z32 w1572064098
+Z33 8D:/CODWork/SCCPU_SIM/dm.v
+Z34 FD:/CODWork/SCCPU_SIM/dm.v
+L0 3
+R8
+r1
+31
+Z35 !s90 -reportprogress|300|-work|work|-vopt|D:/CODWork/SCCPU_SIM/dm.v|
+R10
+Z36 !s108 1573480557.344000
+Z37 !s107 D:/CODWork/SCCPU_SIM/dm.v|
+!i10b 1
+!s85 0
+vEXT
+Z38 !s100 KKf1]935ZQ_AY5GaHn<A03
+Z39 Idk4A5bemH>ZmX[H:OS2F83
+Z40 V<;>E_N0WZjXOmgdkAPRL02
+R4
+Z41 w1572065286
+Z42 8D:/CODWork/SCCPU_SIM/EXT.v
+Z43 FD:/CODWork/SCCPU_SIM/EXT.v
+L0 2
+R8
+r1
+31
+Z44 !s90 -reportprogress|300|-work|work|-vopt|D:/CODWork/SCCPU_SIM/EXT.v|
+R10
+Z45 n@e@x@t
+Z46 !s108 1573480557.797000
+Z47 !s107 D:/CODWork/SCCPU_SIM/EXT.v|
+!i10b 1
+!s85 0
+vim
+Z48 !s100 G06:=cQH72Zj]ZcJ9PWSZ3
+Z49 I:g8ES49bR:WjY>=JEM_Q?2
+Z50 VkoA3ibJYjK6f9b:B2VJKK0
+R4
+Z51 w1551458228
+Z52 8D:/CODWork/SCCPU_SIM/im.v
+Z53 FD:/CODWork/SCCPU_SIM/im.v
+L0 3
+R8
+r1
+31
+Z54 !s90 -reportprogress|300|-work|work|-vopt|D:/CODWork/SCCPU_SIM/im.v|
+R10
+Z55 !s108 1573480557.407000
+Z56 !s107 D:/CODWork/SCCPU_SIM/im.v|
+!i10b 1
+!s85 0
+vmux16
+Z57 !s100 2__@=H@>hRMGT_[9E;nd52
+Z58 IGL6?On_i`Jgh1>@9HO5Sk3
+Z59 V`6=HBldE>cXC;m]K0;QI>0
+R4
+Z60 w1550765554
+Z61 8D:/CODWork/SCCPU_SIM/mux.v
+Z62 FD:/CODWork/SCCPU_SIM/mux.v
+L0 71
+R8
+r1
+31
+Z63 !s108 1573480557.859000
+Z64 !s107 D:/CODWork/SCCPU_SIM/mux.v|
+Z65 !s90 -reportprogress|300|-work|work|-vopt|D:/CODWork/SCCPU_SIM/mux.v|
+R10
+!i10b 1
+!s85 0
+vmux2
+Z66 !s100 28o^fl_hI:8m:@<SBjI>S2
+Z67 IF^_nGRzALFSF1Gfm:l8_b0
+Z68 VT8RWJBjAIeM]>7U=5kBkT1
+R4
+R60
+R61
+R62
+L0 2
+R8
+r1
+31
+R63
+R64
+R65
+R10
+!i10b 1
+!s85 0
+vmux4
+Z69 !s100 kR<n7`7Hb]5md^7^1Q2Jj3
+Z70 IJcAObggePX7Kbfd5PU2mk1
+Z71 V@m74j;^3XFJ7>OzQXh6V`0
+R4
+R60
+R61
+R62
+L0 15
+R8
+r1
+31
+R63
+R64
+R65
+R10
+!i10b 1
+!s85 0
+vmux8
+Z72 !s100 IkF8M5@=iU?j2VDJeFbK]1
+Z73 Il_ETmAAzoFnBJI?<9B1SZ3
+Z74 VOh>X<_n?620Z_^H7^I9KH2
+R4
+R60
+R61
+R62
+L0 40
+R8
+r1
+31
+R63
+R64
+R65
+R10
+!i10b 1
+!s85 0
+vNPC
+Z75 !s100 YU@Yl0TVQP2V@geZakV0Y1
+Z76 IdHYIKza>WTk9V]mXZJD@o0
+Z77 VM0b<M>?BI]?[jjz1eZRi32
+R4
+Z78 w1551202020
+Z79 8D:/CODWork/SCCPU_SIM/NPC.v
+Z80 FD:/CODWork/SCCPU_SIM/NPC.v
+L0 3
+R8
+r1
+31
+Z81 !s90 -reportprogress|300|-work|work|-vopt|D:/CODWork/SCCPU_SIM/NPC.v|
+R10
+Z82 n@n@p@c
+Z83 !s108 1573480557.953000
+Z84 !s107 ctrl_encode_def.v|D:/CODWork/SCCPU_SIM/NPC.v|
+!i10b 1
+!s85 0
+vPC
+Z85 !s100 o5RS]8CQ@H0egbbRJKGXi0
+Z86 IYWo]?_833RP5Nl5J@O:5V2
+Z87 Vz>ZmmiZ`iG:Zc`EOFokET3
+R4
+Z88 w1550113688
+Z89 8D:/CODWork/SCCPU_SIM/PC.v
+Z90 FD:/CODWork/SCCPU_SIM/PC.v
+L0 1
+R8
+r1
+31
+Z91 !s90 -reportprogress|300|-work|work|-vopt|D:/CODWork/SCCPU_SIM/PC.v|
+R10
+n@p@c
+Z92 !s108 1573480558.015000
+Z93 !s107 D:/CODWork/SCCPU_SIM/PC.v|
+!i10b 1
+!s85 0
+vRF
+Z94 !s100 Q6[ZUBkJEXD8<KDW@Z1V<0
+Z95 Id@T64cK;XAKRVV0?2T8]I0
+Z96 VEWJn__zm[8SS3Z@zFLOZT3
+R4
+Z97 w1551271794
+Z98 8D:/CODWork/SCCPU_SIM/RF.v
+Z99 FD:/CODWork/SCCPU_SIM/RF.v
+L0 2
+R8
+r1
+31
+Z100 !s90 -reportprogress|300|-work|work|-vopt|D:/CODWork/SCCPU_SIM/RF.v|
+R10
+n@r@f
+Z101 !s108 1573480558.077000
+Z102 !s107 D:/CODWork/SCCPU_SIM/RF.v|
+!i10b 1
+!s85 0
+vsccomp
+Z103 !s100 OC08JXNT^KSn]W9nBfJaf2
+Z104 IHG1]5UF8oT:R<i?2[R0Ql0
+Z105 VgVBdf]6a]6QJ4FkU3fQ153
+R4
+Z106 w1572074286
+Z107 8D:/CODWork/SCCPU_SIM/sccomp.v
+Z108 FD:/CODWork/SCCPU_SIM/sccomp.v
+L0 1
+R8
+r1
+31
+Z109 !s90 -reportprogress|300|-work|work|-vopt|D:/CODWork/SCCPU_SIM/sccomp.v|
+R10
+Z110 !s108 1573480557.469000
+Z111 !s107 D:/CODWork/SCCPU_SIM/sccomp.v|
+!i10b 1
+!s85 0
+vsccomp_tb
+Z112 !s100 Y[hhL3CPFB`e0e5XSF=b41
+Z113 I:Mmc?924`?=zU3:=fe[lQ0
+Z114 VciK9E@b07zQnz0QWN@GCk0
+R4
+Z115 w1571892268
+Z116 8D:/CODWork/SCCPU_SIM/sccomp_tb.v
+Z117 FD:/CODWork/SCCPU_SIM/sccomp_tb.v
+L0 3
+R8
+r1
+31
+Z118 !s90 -reportprogress|300|-work|work|-vopt|D:/CODWork/SCCPU_SIM/sccomp_tb.v|
+R10
+Z119 !s108 1573480557.547000
+Z120 !s107 D:/CODWork/SCCPU_SIM/sccomp_tb.v|
+!i10b 1
+!s85 0
+vsccpu
+Z121 !s100 :`4b^lVmfVCo7k?^_a<S>1
+Z122 IUU^U0Xz2Z;0Qj^7C]6zoa0
+Z123 V2nlHBHNd:OILV4c`<oPFP3
+R4
+Z124 w1552223888
+Z125 8D:/CODWork/SCCPU_SIM/sccpu.v
+Z126 FD:/CODWork/SCCPU_SIM/sccpu.v
+L0 1
+R8
+r1
+31
+Z127 !s90 -reportprogress|300|-work|work|-vopt|D:/CODWork/SCCPU_SIM/sccpu.v|
+R10
+!i10b 1
+!s85 0
+Z128 !s108 1573480558.140000
+Z129 !s107 D:/CODWork/SCCPU_SIM/sccpu.v|

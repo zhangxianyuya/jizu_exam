@@ -1,0 +1,362 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Mar 25 18:22:15 2024
+| Host         : LAPTOP-KITMPBHJ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file SCCPUSOC_Top_control_sets_placed.rpt
+| Design       : SCCPUSOC_Top
+| Device       : xc7a100t
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   292 |
+| Unused register locations in slices containing registers |   282 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |           16 |
+|      4 |           15 |
+|      6 |           47 |
+|      8 |          204 |
+|     12 |            1 |
+|     14 |            1 |
+|    16+ |            8 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |             230 |           51 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              64 |           22 |
+| Yes          | No                    | Yes                    |            2048 |          819 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+-----------------------------------------+---------------------------------+------------------+----------------+
+|   Clock Signal   |              Enable Signal              |         Set/Reset Signal        | Slice Load Count | Bel Load Count |
++------------------+-----------------------------------------+---------------------------------+------------------+----------------+
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[12][31][0] | U_SCCPU/U_RF/AR[0]              |                1 |              2 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[11][31][0] | U_SCCPU/U_RF/AR[0]              |                1 |              2 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[1][31][0]  | U_SCCPU/U_RF/AR[0]              |                1 |              2 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[10][31][0] | U_SCCPU/U_RF/AR[0]              |                1 |              2 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[13][31][0] | U_SCCPU/U_RF/AR[0]              |                1 |              2 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[16][31][0] | U_SCCPU/U_RF/AR[0]              |                1 |              2 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[15][31][0] | U_SCCPU/U_RF/AR[0]              |                1 |              2 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[14][31][0] | U_SCCPU/U_RF/AR[0]              |                1 |              2 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[2][31][0]  | U_SCCPU/U_RF/AR[0]              |                1 |              2 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[5][31][0]  | U_SCCPU/U_RF/AR[0]              |                1 |              2 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[8][31][0]  | U_SCCPU/U_RF/AR[0]              |                1 |              2 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[4][31][0]  | U_SCCPU/U_RF/AR[0]              |                1 |              2 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[7][31][0]  | U_SCCPU/U_RF/AR[0]              |                1 |              2 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[3][31][0]  | U_SCCPU/U_RF/AR[0]              |                1 |              2 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[6][31][0]  | U_SCCPU/U_RF/AR[0]              |                1 |              2 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[9][31][0]  | U_SCCPU/U_RF/AR[0]              |                1 |              2 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[26][31][0] | U_SCCPU/U_RF/AR[0]              |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[22][31][0] | U_SCCPU/U_RF/AR[0]              |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[25][31][0] | U_SCCPU/U_RF/AR[0]              |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[18][31][0] | U_SCCPU/U_RF/AR[0]              |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[19][31][0] | U_SCCPU/U_RF/AR[0]              |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[28][31][0] | U_SCCPU/U_RF/AR[0]              |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[27][31][0] | U_SCCPU/U_RF/AR[0]              |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[20][31][0] | U_SCCPU/U_RF/AR[0]              |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[21][31][0] | U_SCCPU/U_RF/AR[0]              |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[23][31][0] | U_SCCPU/U_RF/AR[0]              |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[24][31][0] | U_SCCPU/U_RF/AR[0]              |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[29][31][0] | U_SCCPU/U_RF/AR[0]              |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[17][31][0] | U_SCCPU/U_RF/AR[0]              |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[31][31][0] | U_SCCPU/U_RF/AR[0]              |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[30][31][0] | U_SCCPU/U_RF/AR[0]              |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[25][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[27][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[19][31][0] | U_SCCPU/U_RF/AR[1]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[19][31][0] | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[12][31][0] | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[1][31][0]  | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[20][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[24][31][0] | U_SCCPU/U_RF/AR[1]              |                3 |              6 |
+|  U_7SEG/seg7_clk |                                         | U_SCCPU/U_RF/AR[0]              |                1 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[20][31][0] | U_SCCPU/U_RF/AR[1]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[25][31][0] | U_SCCPU/U_RF/AR[1]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[22][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[28][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[18][31][0] | U_SCCPU/U_RF/AR[1]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[18][31][0] | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[29][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[28][31][0] | U_SCCPU/U_RF/AR[1]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[29][31][0] | U_SCCPU/U_RF/AR[1]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[22][31][0] | U_SCCPU/U_RF/AR[1]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[15][31][0] | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[11][31][0] | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[14][31][0] | U_SCCPU/U_RF/AR[2]              |                2 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[21][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[17][31][0] | U_SCCPU/U_RF/AR[1]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[17][31][0] | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[26][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[2][31][0]  | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[10][31][0] | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[5][31][0]  | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[27][31][0] | U_SCCPU/U_RF/AR[1]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[8][31][0]  | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[24][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[4][31][0]  | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[16][31][0] | U_SCCPU/U_RF/AR[2]              |                2 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[7][31][0]  | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[31][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[23][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[31][31][0] | U_SCCPU/U_RF/AR[1]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[30][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[21][31][0] | U_SCCPU/U_RF/AR[1]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[30][31][0] | U_SCCPU/U_RF/AR[1]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[13][31][0] | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[3][31][0]  | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[23][31][0] | U_SCCPU/U_RF/AR[1]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[6][31][0]  | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[26][31][0] | U_SCCPU/U_RF/AR[1]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[9][31][0]  | U_SCCPU/U_RF/AR[2]              |                3 |              6 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[11][31][0] | U_SCCPU/U_RF/AR[1]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[21][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[21][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[21][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[21][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[21][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[21][31][0] | U_SCCPU/U_RF/AR[2]              |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[1][31][0]  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[1][31][0]  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[1][31][0]  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[1][31][0]  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[1][31][0]  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[1][31][0]  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[1][31][0]  | U_SCCPU/U_RF/AR[1]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[22][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[22][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[22][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[22][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[22][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[22][31][0] | U_SCCPU/U_RF/AR[2]              |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[23][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[23][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[23][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[23][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[23][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[23][31][0] | U_SCCPU/U_RF/AR[2]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[25][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[25][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[25][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[25][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[25][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[25][31][0] | U_SCCPU/U_RF/AR[2]              |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[26][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[26][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[26][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[26][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[26][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[26][31][0] | U_SCCPU/U_RF/AR[2]              |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[27][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[27][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[27][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[27][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[27][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[27][31][0] | U_SCCPU/U_RF/AR[2]              |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[16][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[16][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[16][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[16][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[16][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[16][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[16][31][0] | U_SCCPU/U_RF/AR[1]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[12][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[12][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[12][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[12][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[12][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[12][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[12][31][0] | U_SCCPU/U_RF/AR[1]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[24][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[24][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[24][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[24][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[24][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[24][31][0] | U_SCCPU/U_RF/AR[2]              |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[28][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[28][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[28][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[28][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[28][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[28][31][0] | U_SCCPU/U_RF/AR[2]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[18][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[18][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[18][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[18][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[18][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[18][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    |                                         | U_CLKDIV/AR[0]                  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[29][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[29][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[29][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[29][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[29][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[10][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[10][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[10][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[29][31][0] | U_SCCPU/U_RF/AR[2]              |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[15][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[15][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[15][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[15][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[15][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[15][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[10][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[15][31][0] | U_SCCPU/U_RF/AR[1]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[10][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[14][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[14][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[14][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[14][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[14][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[14][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[10][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[14][31][0] | U_SCCPU/U_RF/AR[1]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[10][31][0] | U_SCCPU/U_RF/AR[1]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[17][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[17][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[17][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[17][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[17][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[17][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[13][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[13][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[13][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[2][31][0]  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[2][31][0]  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[2][31][0]  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[2][31][0]  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[2][31][0]  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[2][31][0]  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[13][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[2][31][0]  | U_SCCPU/U_RF/AR[1]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[13][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[5][31][0]  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[5][31][0]  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[5][31][0]  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[5][31][0]  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[5][31][0]  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[5][31][0]  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[13][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[5][31][0]  | U_SCCPU/U_RF/AR[1]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[13][31][0] | U_SCCPU/U_RF/AR[1]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[8][31][0]  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[8][31][0]  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[8][31][0]  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[8][31][0]  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[8][31][0]  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[8][31][0]  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[19][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[8][31][0]  | U_SCCPU/U_RF/AR[1]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[19][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[4][31][0]  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[4][31][0]  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[4][31][0]  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[4][31][0]  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[4][31][0]  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[4][31][0]  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[19][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[4][31][0]  | U_SCCPU/U_RF/AR[1]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[19][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[7][31][0]  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[7][31][0]  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[7][31][0]  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[7][31][0]  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[7][31][0]  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[7][31][0]  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[19][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[7][31][0]  | U_SCCPU/U_RF/AR[1]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[19][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[31][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[31][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[31][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[31][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[31][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[20][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[20][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[20][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[31][31][0] | U_SCCPU/U_RF/AR[2]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[30][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[30][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[30][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[30][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[20][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[30][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[20][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[20][31][0] | U_SCCPU/U_RF/AR[2]              |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[30][31][0] | U_SCCPU/U_RF/AR[2]              |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[3][31][0]  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[3][31][0]  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[3][31][0]  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[3][31][0]  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[3][31][0]  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[3][31][0]  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[11][31][0] | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[3][31][0]  | U_SCCPU/U_RF/AR[1]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[11][31][0] | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[6][31][0]  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[6][31][0]  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[6][31][0]  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[6][31][0]  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[6][31][0]  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[6][31][0]  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[11][31][0] | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[6][31][0]  | U_SCCPU/U_RF/AR[1]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[11][31][0] | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[9][31][0]  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[9][31][0]  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[9][31][0]  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[9][31][0]  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[9][31][0]  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[9][31][0]  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[11][31][0] | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[9][31][0]  | U_SCCPU/U_RF/AR[1]              |                4 |              8 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/rf_reg[11][31][0] | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              8 |
+|  clk_IBUF_BUFG   | U_SCCPU/U_RF/E[0]                       | U_CLKDIV/AR[0]                  |                4 |              8 |
+|  clk_IBUF_BUFG   | U_SCCPU/U_RF/E[0]                       | U_SCCPU/U_RF/AR[1]              |                4 |             12 |
+|  Clk_CPU_BUFG    |                                         | U_SCCPU/U_RF/AR[1]              |                5 |             14 |
+|  Clk_CPU_BUFG    |                                         | U_SCCPU/U_RF/AR[2]              |                5 |             16 |
+|  clk_IBUF_BUFG   | U_SCCPU/U_RF/E[0]                       | U_SCCPU/U_RF/AR[2]              |                8 |             18 |
+|  Clk_CPU_BUFG    |                                         | U_SCCPU/U_RF/AR[0]              |                7 |             26 |
+|  clk_IBUF_BUFG   | U_SCCPU/U_RF/E[0]                       | U_SCCPU/U_RF/AR[0]              |                7 |             26 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_MUX4_GPR_A3/E[0]              |                                 |               22 |             64 |
+|  clk_IBUF_BUFG   |                                         | U_CLKDIV/AR[0]                  |                8 |             66 |
+|  clk_IBUF_BUFG   |                                         | U_SCCPU/U_RF/AR[0]              |               23 |             94 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/ram_we                     |                                 |               16 |            128 |
++------------------+-----------------------------------------+---------------------------------+------------------+----------------+
+
+

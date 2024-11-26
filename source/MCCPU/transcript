@@ -1,0 +1,23 @@
+# Reading D:/modeltech_10.1a/tcl/vsim/pref.tcl 
+# error: Layout::Clairvoyance can't read "map(‡)": no such element in array
+# can't read "map(‡)": no such element in array
+#     while executing
+# "Layout::Clairvoyance" 
+# //  ModelSim SE 10.1a Feb 22 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile {//vmware-host/Shared Folders/‡?/MIPS Lab/2019tË¡—:¾¡žõ/source/MCCPU/alu.v} 
+#  Trace back: can't read "map(‡)": no such element in array
+#     while executing
+# "quit"
+#     (command for "WM_DELETE_WINDOW" window manager protocol) 
+#    <2: ::tkerror {can't read "map(‡)": no such element in array} 
+#    <1: ::bgerror {can't read "map(‡)": no such element in array} 
+quit
+quit

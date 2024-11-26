@@ -1,0 +1,25 @@
+# Reading D:/modeltech_10.1a/tcl/vsim/pref.tcl 
+# //  ModelSim SE 10.1a Feb 22 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile D:/CODWork/MCCPU_SIM/MCCPU_SIM.mpf 
+# Loading project MCCPU_SIM
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of EXT.v was successful.
+# Compile of flopenr.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mccpu.v was successful.
+# Compile of mux.v was successful.
+# Compile of RF.v was successful.
+# Compile of dm.v was successful.
+# Compile of mccomp.v was successful.
+# Compile of mccomp_tb.v was successful.
+# 12 compiles, 0 failed with no errors. 
